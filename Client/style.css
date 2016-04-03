@@ -1,0 +1,30 @@
+#chat {
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+	overflow: auto;
+}
+
+button {
+	border: 3px solid grey;
+	border-radius: 5px;
+	color: grey;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24;
+	background-color: #DDD;
+}
+
+input {
+	border: 3px solid #47D;
+	border-radius: 5px;
+	font-size: 24;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+span {
+	font-size: 24;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+}
