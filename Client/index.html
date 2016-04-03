@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8"/>
+		<title>Chat</title>
+	</head>
+	<body>
+		<div id="connect">
+			<input placeholder="Name" id="name"> 
+			<button onclick="Client.connect()">Connect</button>
+		</div>
+		<div id="chat" style="visibility: hidden;"></div>
+		<div id="input"  style="visibility: hidden;"> 
+				<input id ="chatInput" style="position:absolute;">
+				<button id="send" onclick="Client.send()" style="position:absolute;">SEND</button>
+				<button id="list" onclick="Client.list()" style="position:absolute;">LIST</button>
+				<input id ="roomInput" style="position:absolute;">
+				<button id="room" onclick="Client.room()" style="position:absolute;">ROOM</button>
+				<button id="clear" onclick="Client.clear()" style="position:absolute;">CLEAR</button>
+				<span id ="stat" style="position:absolute;"></span>
+			</div>
+		<script src="script.js"></script>
+	</body>
+</html>
